@@ -46,7 +46,7 @@ public class Person {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", cnp='" + cnp + '\'' +
-                ", account=" + account +
+                ", account=" +"sold:"+account.getAmount() +
                 '}';
     }
 }
