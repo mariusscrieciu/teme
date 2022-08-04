@@ -124,14 +124,14 @@ public class PersonTest {
 
         Person p3 = new Person();
         p2.setName("Alin");
-        p2.setAge(120);
+        p2.setAge(119);
 
         PersonService service = new PersonService();
         service.addPerson(p1);
         service.addPerson(p2);
         service.addPerson(p3);
 
-        List<Person> olderThan = service.getPersonsOlderThan(30);
+        List<Person> olderThan = service.getPersonsOlderThan(21);
         Assertions.assertThat(olderThan).isNotEmpty();
         for (Person p : olderThan) {
             Assertions

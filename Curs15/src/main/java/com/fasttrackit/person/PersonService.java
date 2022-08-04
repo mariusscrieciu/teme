@@ -42,8 +42,12 @@ public class PersonService {
         List<Person> olderThan = new ArrayList<>();
 
         for (Person p : persons) {
-            if (p.getAge() > 0 && p.getAge() < 120) {
-                olderThan.add(p);
+            if (age > 0 && age < 120) {
+                if(p.getAge() > age){
+                    olderThan.add(p);
+                }
+            }else {
+                throw new RuntimeException("Age is smaller than 0 or is greater than 120. Please select a value in range");
             }
         }
         return olderThan;
