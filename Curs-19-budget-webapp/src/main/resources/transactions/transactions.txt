@@ -1,0 +1,5 @@
+1|caise-8.0|BUY|100.0
+2|apa-2.35|SELL|65.0
+3|suc-9.0|SELL|72.0
+4|kiwi-14.0|BUY|222.0
+5|pere-8.0|SELL|49.0

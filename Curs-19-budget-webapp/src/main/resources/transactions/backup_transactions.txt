@@ -1,0 +1,7 @@
+1|zmeura-28.0|SELL|34.0
+2|apa-2,35|SELL|65.0
+3|suc-9.0|SELL|72.0
+4|ulei-35.0|SELL|900.0
+5|pere-8.0|SELL|49.0
+6|mere-6.0|SELL|15.0
+
